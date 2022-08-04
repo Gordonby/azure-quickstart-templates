@@ -108,7 +108,13 @@ resource containerApp 'Microsoft.App/containerApps@2022-03-01' = {
           }
         ]
       }
-      registries: [
+      // registries: [
+      //   {
+      //     identity: uai.id
+      //     server: acr.outputs.loginServer
+      //   }
+      // ]
+      registries: false ? [] : [
         {
           identity: uai.id
           server: acr.outputs.loginServer
