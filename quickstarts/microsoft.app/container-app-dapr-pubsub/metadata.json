@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Creates the Dapr Pub-Sub quickstart app using Container Apps.",
+  "description": "Creates the Dapr Pub-Sub quickstart app using Container Apps.",
+  "summary": "Creates the Dapr Pub-Sub quickstart app using Container Apps.",
+  "githubUsername": "gordonby",
+  "dateUpdated": "2022-10-11",
+  "environments": [
+    "AzureCloud"
+  ]
+}
